@@ -1,0 +1,18 @@
+.description {
+  text-align: center;
+}
+
+.container-images {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(12rem, 1fr));
+  grid-gap: 1rem;
+  justify-content: center;
+  padding-bottom: 2rem;
+}
+
+@media screen and (max-width: 1000px) {
+  .container-images {
+    grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr));
+  }
+}

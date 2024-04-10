@@ -1,0 +1,55 @@
+label {
+  width: 100%;
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin: 0.25rem 0;
+  text-align: center;
+}
+
+input {
+  font: inherit;
+  border: 1px solid hsl(0deg 0% 70%);
+  border-radius: 0.25rem;
+  padding: 0.25rem 1rem;
+  box-shadow: -1px 1px 6px rgba(59, 59, 59, 0.3);
+  border: none;
+}
+
+.side-by-side{
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 2rem;
+  margin-right: 2rem;
+  width: 100%;
+}
+
+.submit {
+  display: block;
+  margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.5rem 2rem;
+  width: 8rem;
+  background-color: hsl(0 0% 25%);
+  color: hsl(0deg 0% 90%);
+  transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.submit:hover {
+  transform: scale(1.1) translateY(-0.25rem);
+  background-color: hsl(0, 0%, 30%);
+  color:rgb(176, 233, 153);
+}
+
+#gender {
+  border-radius: 0.25rem;
+  border: none;
+  padding: 0.5rem 2rem;
+  margin-bottom: 1rem;
+  background-color: hsl(0deg 0% 99%);
+  box-shadow: -1px 1px 6px rgba(59, 59, 59, 0.3);
+  max-width: 9rem;
+  font-size: 0.95rem;
+}

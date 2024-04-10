@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Adopt a puppy</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="./images/favicon.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="./stylesheets/global.css" />
+    <link rel="stylesheet" href="./stylesheets/adopt.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="/gallery"> <button type="button">Gallery</button></a>
+      <a href="/about"> <button type="button">About</button></a>
+    </nav>
+
+    <h1 class="title">Puppy adoption</h1>
+    <div class="description">
+      <p>
+        Are you looking for a furry friend to add to your family? We have a
+        variety of dogs available for adoption, all of whom are looking for a
+        loving home.
+      </p>
+      <p>
+        Our dogs come from all walks of life. Some were abandoned by their
+        owners, while others were rescued from shelters. They are all different
+        ages, sizes, and breeds, but they all have one thing in common: they are
+        all looking for a loving home.
+      </p>
+      <p>
+        If you are interested in adopting a dog, please visit our gallery to see
+        the dogs available, and fill out our adoption form bellow so we can
+        contact you.
+      </p>
+    </div>
+
+    <form action="/adopt" method="post">
+      <label class="side-by-side">
+        Contact email
+        <input type="email" name="email" id="email" required="required"/>
+      </label>
+      <label class="side-by-side">
+        Puppy breed
+        <input type="text" name="breed" id="breed" required="required"/>
+      </label>
+      <label class="side-by-side">
+        Gender
+        <select name="gender" id="gender">
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+        </select>
+      </label>
+
+      <input class="submit" type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
