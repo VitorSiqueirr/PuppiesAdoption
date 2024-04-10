@@ -4,8 +4,6 @@ Millions of pets enter shelters every year, some fighting to survive on severe c
 
 In this challenge, users will be able to visualize our mission in the new website by viewing photos, knowing about the project and interacting with different parts of the site to engage them to adopt our lonely puppies.
 
-Use the following project as your starting point: [https://gitlab.com/codeminer-42/trainee-projects/02-2023/puppy-adoption](https://gitlab.com/codeminer-42/trainee-projects/02-2023/puppy-adoption)
-
 This project already contains the backend server and some assets that you're going to use in order to complete the tasks below, so you do not to worry to start things from scratch.
 
 For this series of challenges, we're going to use some basic HTML and CSS.
